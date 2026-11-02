@@ -1,0 +1,5 @@
+,Accuracy,Precision,Recall,F1 Score,"CV F1 (train, mean)","CV F1 (train, std)",Train Accuracy,Fit time (s),False Negatives,False Positives
+SVM (RBF),0.9737,1.0,0.9286,0.963,0.961,0.0082,0.9868,0.0151,3,0
+Random Forest,0.9737,1.0,0.9286,0.963,0.9434,0.032,0.9934,0.4731,3,0
+Logistic Regression,0.9649,0.975,0.9286,0.9512,0.964,0.0207,0.9868,0.0053,3,1
+Decision Tree,0.9035,0.9189,0.8095,0.8608,0.8979,0.0418,0.9626,0.0061,8,3

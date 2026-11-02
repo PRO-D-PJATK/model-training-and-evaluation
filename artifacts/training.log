@@ -1,0 +1,84 @@
+23:19:05 | INFO | Environment ready, RANDOM_STATE=42
+23:19:05 | INFO | Split done: train=455, test=114 (test_size=0.20, random_state=42, stratified)
+23:19:05 | INFO | MLflow available: False
+23:19:05 | INFO | === Training Logistic Regression ===
+23:19:05 | INFO |   param clf__C                              = 1.0
+23:19:05 | INFO |   param clf__class_weight                   = None
+23:19:05 | INFO |   param clf__dual                           = False
+23:19:05 | INFO |   param clf__fit_intercept                  = True
+23:19:05 | INFO |   param clf__intercept_scaling              = 1
+23:19:05 | INFO |   param clf__l1_ratio                       = 0.0
+23:19:05 | INFO |   param clf__max_iter                       = 1000
+23:19:05 | INFO |   param clf__n_jobs                         = None
+23:19:05 | INFO |   param clf__penalty                        = l2
+23:19:05 | INFO |   param clf__random_state                   = 42
+23:19:05 | INFO |   param clf__solver                         = lbfgs
+23:19:05 | INFO |   param clf__tol                            = 0.0001
+23:19:05 | INFO |   param clf__verbose                        = 0
+23:19:05 | INFO |   param clf__warm_start                     = False
+23:19:05 | INFO |   param memory                              = None
+23:19:05 | INFO |   param scaler__copy                        = True
+23:19:05 | INFO |   param scaler__with_mean                   = True
+23:19:05 | INFO |   param scaler__with_std                    = True
+23:19:05 | INFO |   param transform_input                     = None
+23:19:05 | INFO |   param verbose                             = False
+23:19:05 | INFO |   fit time: 0.005s | train accuracy: 0.9868 | CV F1: 0.9640 +/- 0.0207
+23:19:05 | INFO | === Training Decision Tree ===
+23:19:05 | INFO |   param ccp_alpha                           = 0.0
+23:19:05 | INFO |   param class_weight                        = None
+23:19:05 | INFO |   param criterion                           = gini
+23:19:05 | INFO |   param max_depth                           = 5
+23:19:05 | INFO |   param max_features                        = None
+23:19:05 | INFO |   param max_leaf_nodes                      = None
+23:19:05 | INFO |   param min_impurity_decrease               = 0.0
+23:19:05 | INFO |   param min_samples_leaf                    = 5
+23:19:05 | INFO |   param min_samples_split                   = 2
+23:19:05 | INFO |   param min_weight_fraction_leaf            = 0.0
+23:19:05 | INFO |   param monotonic_cst                       = None
+23:19:05 | INFO |   param random_state                        = 42
+23:19:05 | INFO |   param splitter                            = best
+23:19:05 | INFO |   fit time: 0.006s | train accuracy: 0.9626 | CV F1: 0.8979 +/- 0.0418
+23:19:05 | INFO | === Training Random Forest ===
+23:19:05 | INFO |   param bootstrap                           = True
+23:19:05 | INFO |   param ccp_alpha                           = 0.0
+23:19:05 | INFO |   param class_weight                        = None
+23:19:05 | INFO |   param criterion                           = gini
+23:19:05 | INFO |   param max_depth                           = None
+23:19:05 | INFO |   param max_features                        = sqrt
+23:19:05 | INFO |   param max_leaf_nodes                      = None
+23:19:05 | INFO |   param max_samples                         = None
+23:19:05 | INFO |   param min_impurity_decrease               = 0.0
+23:19:05 | INFO |   param min_samples_leaf                    = 2
+23:19:05 | INFO |   param min_samples_split                   = 2
+23:19:05 | INFO |   param min_weight_fraction_leaf            = 0.0
+23:19:05 | INFO |   param monotonic_cst                       = None
+23:19:05 | INFO |   param n_estimators                        = 300
+23:19:05 | INFO |   param n_jobs                              = -1
+23:19:05 | INFO |   param oob_score                           = False
+23:19:05 | INFO |   param random_state                        = 42
+23:19:05 | INFO |   param verbose                             = 0
+23:19:05 | INFO |   param warm_start                          = False
+23:19:08 | INFO |   fit time: 0.473s | train accuracy: 0.9934 | CV F1: 0.9434 +/- 0.0320
+23:19:09 | INFO | === Training SVM (RBF) ===
+23:19:09 | INFO |   param clf__C                              = 1.0
+23:19:09 | INFO |   param clf__break_ties                     = False
+23:19:09 | INFO |   param clf__cache_size                     = 200
+23:19:09 | INFO |   param clf__class_weight                   = None
+23:19:09 | INFO |   param clf__coef0                          = 0.0
+23:19:09 | INFO |   param clf__decision_function_shape        = ovr
+23:19:09 | INFO |   param clf__degree                         = 3
+23:19:09 | INFO |   param clf__gamma                          = scale
+23:19:09 | INFO |   param clf__kernel                         = rbf
+23:19:09 | INFO |   param clf__max_iter                       = -1
+23:19:09 | INFO |   param clf__probability                    = True
+23:19:09 | INFO |   param clf__random_state                   = 42
+23:19:09 | INFO |   param clf__shrinking                      = True
+23:19:09 | INFO |   param clf__tol                            = 0.001
+23:19:09 | INFO |   param clf__verbose                        = False
+23:19:09 | INFO |   param memory                              = None
+23:19:09 | INFO |   param scaler__copy                        = True
+23:19:09 | INFO |   param scaler__with_mean                   = True
+23:19:09 | INFO |   param scaler__with_std                    = True
+23:19:09 | INFO |   param transform_input                     = None
+23:19:09 | INFO |   param verbose                             = False
+23:19:09 | INFO |   fit time: 0.015s | train accuracy: 0.9868 | CV F1: 0.9610 +/- 0.0082
